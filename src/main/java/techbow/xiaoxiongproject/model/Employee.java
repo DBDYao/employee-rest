@@ -16,7 +16,7 @@ public class Employee {
     private String firstName;
 
     @NotNull
-    private String LastName;
+    private String lastName;
 
     @NotNull
     @Min(1)
@@ -25,5 +25,33 @@ public class Employee {
 
     public int getAge(){
         return age;
+    }
+
+    public void setAge(int age){
+        this.age = age;
+    }
+
+    public Long getId(){
+        return id;
+    }
+
+    public void setId(Long id){
+        this.id = id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getLastName() {
+        return lastName;
     }
 }
